@@ -1,39 +1,39 @@
 {
-  "name": "codemonauts/craft-readonly-field",
-  "description": "Craft CMS plugin to add a simple, read-only plaintext field.",
-  "version": "2.0.1",
-  "type": "craft-plugin",
-  "keywords": [
-    "craft",
-    "cms",
-    "craftcms",
-    "craft-plugin",
-    "field",
-    "read-only"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "codemonauts",
-      "homepage": "https://codemonauts.com"
-    }
-  ],
-  "support": {
-    "source": "https://github.com/codemonauts/craft-readonly-field",
-    "docs": "https://github.com/codemonauts/craft-readonly-field/blob/master/README.md",
-    "issues": "https://github.com/codemonauts/craft-readonly-field/issues"
-  },
-  "require": {
-    "craftcms/cms": "^4.0.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "codemonauts\\readonly\\": "src/"
-    }
-  },
-  "extra": {
-    "handle": "readonly",
-    "class": "codemonauts\\readonly\\ReadonlyPlugin",
-    "name": "Read-only Field"
-  }
+	"name": "codemonauts/craft-readonly-field",
+	"description": "Craft CMS plugin to add a simple, read-only plaintext field.",
+	"version": "2.1.0",
+	"type": "craft-plugin",
+	"keywords": [
+		"craft",
+		"cms",
+		"craftcms",
+		"craft-plugin",
+		"field",
+		"read-only"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "codemonauts",
+			"homepage": "https://codemonauts.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/codemonauts/craft-readonly-field",
+		"docs": "https://github.com/codemonauts/craft-readonly-field/blob/master/README.md",
+		"issues": "https://github.com/codemonauts/craft-readonly-field/issues"
+	},
+	"require": {
+		"craftcms/cms": "^5.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"codemonauts\\readonly\\": "src/"
+		}
+	},
+	"extra": {
+		"handle": "readonly",
+		"class": "codemonauts\\readonly\\ReadonlyPlugin",
+		"name": "Read-only Field"
+	}
 }
